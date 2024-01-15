@@ -1,0 +1,18 @@
+.breadcrumb_section {
+  width: 100%;
+  background-color: #f7f8fb;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
+}
+
+.breadcrumb_page_title {
+  margin: 0px !important;
+  text-transform: uppercase;
+  font-family: var(--primaryFonts);
+}
+
+.breadcrumb-item {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: var(--secondaryFonts);
+  text-transform: uppercase;
+}

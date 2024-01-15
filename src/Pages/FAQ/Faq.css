@@ -1,0 +1,26 @@
+.faq_section {
+  margin: 100px 0px;
+}
+
+.accordion-item {
+  border: none;
+}
+
+.accordion-button {
+  color: black;
+  border: none;
+  border-bottom: 1px solid #dee2e6;
+  font-family: var(--primaryFonts);
+  border-radius: 0px;
+  transition: all 0.4s;
+
+  &:hover {
+    color: orange;
+  }
+
+  &:focus {
+    box-shadow: none;
+    border-bottom: 1px solid #dee2e6;
+    background-color: transparent;
+  }
+}
