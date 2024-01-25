@@ -1,4 +1,4 @@
-import "./register.css"
+import "./Register.css"
 import Layout from '../../Layout/Layout'
 import { Link } from "react-router-dom"
 import { FaFacebookF } from "react-icons/fa";
