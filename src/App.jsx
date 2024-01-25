@@ -1,10 +1,7 @@
 // bootstrap
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle.js"
-// react slick carousel
-// import "~slick-carousel/slick/slick.css";
-import "../node_modules/slick-carousel/slick/slick.css"
-import "../node_modules/slick-carousel/slick/slick-theme.css";
+
 import { Route, Routes } from "react-router-dom"
 // pages
 import Home from "./Pages/Home/Home.jsx"

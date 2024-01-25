@@ -1,0 +1,27 @@
+.slick-slide {
+  padding: 0px 10px !important;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-size: 30px;
+}
+
+.slick-dots li button:before {
+  font-size: 6px;
+  opacity: 1;
+  color: white;
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: 1;
+  color: red;
+}
+
+@media screen and (max-width: 800px) {
+
+  .slick-prev:before,
+  .slick-next:before {
+    display: none;
+  }
+}
