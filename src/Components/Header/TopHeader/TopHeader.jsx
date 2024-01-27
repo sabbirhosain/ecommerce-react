@@ -83,9 +83,9 @@ const TopHeader = () => {
                 <span className="account_icon"><FiUser /></span>
                 <button class="dropdown-toggle account_title" data-bs-toggle="dropdown" aria-expanded="false">Account</button>
                 <ul class="dropdown-menu account_dropdown">
-                  <li><Link to={"#"} class="dropdown-item account_link"><FaUserCircle className="account_icon" /> Login</Link></li>
-                  <li><Link to={"#"} class="dropdown-item account_link"><FaUserCircle className="account_icon" /> Register</Link></li>
-                  <li><Link to={"#"} class="dropdown-item account_link"><FaUserCircle className="account_icon" /> Dashbord</Link></li>
+                  <li><Link to={"#"} class="dropdown-item account_link"><FaUserCircle className="me-2" /> Login</Link></li>
+                  <li><Link to={"#"} class="dropdown-item account_link"><FaUserCircle className="me-2" /> Register</Link></li>
+                  <li><Link to={"#"} class="dropdown-item account_link"><FaUserCircle className="me-2" /> Dashbord</Link></li>
                 </ul>
               </div>
 
