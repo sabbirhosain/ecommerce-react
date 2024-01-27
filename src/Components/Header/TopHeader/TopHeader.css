@@ -1,4 +1,7 @@
-/* .top_header {} */
+.top_header {
+  width: 90%;
+  margin: 0 auto;
+}
 
 .search_box {
   display: flex;
@@ -35,4 +38,67 @@
 .search .search_icon {
   font-size: 20px;
   color: black;
+}
+
+.acton_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.action_icon {
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+.action_title {
+  color: black;
+  font-weight: 500;
+  font-family: var(--primaryFonts);
+  cursor: pointer;
+}
+
+.account_icon {
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+.action_count {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.account_title {
+  color: black;
+  font-weight: 500;
+  font-family: var(--primaryFonts);
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.account_dropdown {
+  /* border: 2px solid #BCE3C9; */
+  /* border-top: none; */
+  /* background-color: #ebe9e9; */
+  /* z-index: 99999; */
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.account_link {
+  color: black;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+  font-family: var(--primaryFonts);
+  transition: all 0.2s;
+
+  &:hover {
+    color: white;
+    background-color: #01f753;
+  }
 }

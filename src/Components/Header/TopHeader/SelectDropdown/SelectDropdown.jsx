@@ -16,9 +16,6 @@ const SelectDropdown = ({ data, placeholder }) => {
     setSelectItem(categoryName);
   };
 
-
-
-
   return (
     <div className="category_dropdown">
       <button onClick={openDropdown} className="dropdown_select_btn">{selectItem}<IoMdArrowDropdown className="category_icon" /></button>
