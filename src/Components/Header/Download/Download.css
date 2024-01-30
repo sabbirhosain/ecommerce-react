@@ -1,0 +1,37 @@
+.download_section {
+  background-color: black;
+}
+
+.sopping_overview {
+  font-size: 14px;
+  color: white;
+  margin: 0;
+  font-family: var(--primaryFonts);
+}
+
+.download_icon {
+  color: white;
+  font-size: 16px;
+}
+
+.language_box,
+.country_box {
+  background-color: black;
+  min-width: auto !important;
+}
+
+.country_name,
+.lang_name {
+  color: white;
+  font-size: 14px;
+  font-family: var(--primaryFonts);
+}
+
+.language_title {
+  color: white;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  font-family: var(--primaryFonts);
+  background-color: transparent;
+}

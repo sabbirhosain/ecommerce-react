@@ -1,7 +1,6 @@
 import { Helmet } from 'react-helmet'
-import Header from '../Components/Header/Header'
+import Navbar from '../Components/Header/Navbar/Navbar'
 import Footer from '../Components/Footer/Footer'
-import TopHeader from '../Components/Header/TopHeader/TopHeader'
 
 const Layout = ({ children, title }) => {
   return (
@@ -12,7 +11,7 @@ const Layout = ({ children, title }) => {
 
 
       <header style={{ marginBottom: "80px" }}>
-        <TopHeader />
+        <Navbar />
       </header>
 
 

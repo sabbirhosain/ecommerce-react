@@ -37,7 +37,7 @@
 
 .search .search_icon {
   font-size: 20px;
-  color: black;
+  color: black !important;
 }
 
 .acton_box {
@@ -47,18 +47,20 @@
 }
 
 .action_icon {
+  color: black !important;
   font-size: 20px;
   margin-right: 5px;
 }
 
 .action_title {
-  color: black;
+  color: black !important;
   font-weight: 500;
   font-family: var(--primaryFonts);
   cursor: pointer;
 }
 
 .account_icon {
+  color: black !important;
   font-size: 20px;
   margin-right: 5px;
 }
@@ -69,7 +71,7 @@
 }
 
 .account_title {
-  color: black;
+  color: black !important;
   font-weight: 500;
   font-family: var(--primaryFonts);
   cursor: pointer;
@@ -79,10 +81,8 @@
 }
 
 .account_dropdown {
-  /* border: 2px solid #BCE3C9; */
-  /* border-top: none; */
-  /* background-color: #ebe9e9; */
-  /* z-index: 99999; */
+  border: 1px solid #BCE3C9;
+  border-radius: 0px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
@@ -99,6 +99,6 @@
 
   &:hover {
     color: white;
-    background-color: #01f753;
+    background-color: #01f753 !important;
   }
 }

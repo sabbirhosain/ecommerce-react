@@ -9,7 +9,7 @@
     height: 20px;
     background-color: rgb(158, 156, 156);
     top: 0px;
-    left: 135px;
+    left: 120px;
   }
 }
 
@@ -96,7 +96,7 @@
   }
 }
 
-.active {
+/* .active {
   color: white;
   background-color: #01f753;
-}
+} */

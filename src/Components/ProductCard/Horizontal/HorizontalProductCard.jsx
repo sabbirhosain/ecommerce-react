@@ -1,4 +1,4 @@
-import "./HorizontalProductCard.css"
+// import "./HorizontalProductCard.css"
 import image from "../../../assets/product_img1.jpg"
 
 const HorizontalProductCard = () => {
