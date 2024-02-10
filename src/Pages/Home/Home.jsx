@@ -16,13 +16,15 @@ const Home = () => {
       <section className='hero_section'>
         <div className="container-fluid g-0">
           <div className="row">
-            <div className="col-lg-8">
+            <div className="col-lg-8 g-0">
               <Home_Carousel />
             </div>
-            <div className="col-lg-4">
-              <div className="row flex-row  flex-md-column">
-                <div className='col-6 col-md-6 col-xl-12'><img src={carousel3} className='img-fluid' alt="" /></div>
-                <div className='col-6 col-md-6 col-xl-12'><img src={carousel4} className='img-fluid' alt="" /></div>
+            <div className="col-lg-4 g-0">
+              <div className="container">
+                <div className="row flex-row  flex-md-column">
+                  <div className='col-6 col-md-6 col-xl-12 g-0'><img src={carousel4} className='img-fluid' alt="" /></div>
+                  <div className='col-6 col-md-6 col-xl-12 g-0'><img src={carousel3} className='img-fluid' alt="" /></div>
+                </div>
               </div>
             </div>
           </div>
