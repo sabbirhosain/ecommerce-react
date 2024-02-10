@@ -1,0 +1,16 @@
+.carousel-inner {
+  max-height: 60vh !important;
+  overflow: hidden;
+}
+
+.carousel-caption {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top: 40%;
+  left: 15%;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  color: black;
+  text-align: left;
+}

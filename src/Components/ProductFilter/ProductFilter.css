@@ -1,0 +1,9 @@
+.nav-tabs .nav-link {
+  margin-bottom: 0px !important;
+  border: 0px !important;
+  border-top-left-radius: 0px !important;
+  border-top-right-radius: 0px !important;
+  color: black;
+  font-weight: 400;
+  font-family: var(--primaryFonts);
+}

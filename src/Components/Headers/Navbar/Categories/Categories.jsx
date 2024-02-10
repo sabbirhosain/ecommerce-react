@@ -8,6 +8,8 @@ import { BsSpeakerFill } from "react-icons/bs";
 import { PiPrinterFill, PiTelevisionSimpleBold } from "react-icons/pi";
 import { Link } from "react-router-dom";
 
+import computer from "../../../../assets/menu_banner7.jpg"
+import mobile from "../../../../assets/menu_banner6.jpg"
 // import "./Categories.css"
 
 const Categories = () => {
@@ -22,7 +24,8 @@ const Categories = () => {
           <ul>
             <li className="dropdown dropdown-mega-menu">
               <Link to={"#"} className="dropdown-item nav-link dropdown-toggler" data-bs-toggle="dropdown"><i className="flaticon-tv"><FaComputer /></i> <span>Computer</span></Link>
-
+              
+              {/* megha menu */}
               <div className="dropdown-menu">
                 <ul className="mega-menu d-lg-flex">
                   <li className="mega-menu-col col-lg-7">
@@ -31,33 +34,33 @@ const Categories = () => {
                         <ul>
                           <li className="dropdown-header">Featured Item</li>
                           <li><Link to={"#"} className="dropdown-item nav-link nav_item">Vestibulum sed</Link></li>
-                          <li><Link to={"#"} className="dropdown-item nav-link nav_item">Donec porttitor</Link></li>
-                          <li><Link to={"#"} className="dropdown-item nav-link nav_item">Donec vitae facilisis</Link></li>
-                          <li><Link to={"#"} className="dropdown-item nav-link nav_item">Curabitur tempus</Link></li>
-                          <li><Link to={"#"} className="dropdown-item nav-link nav_item">Vivamus in tortor</Link></li>
-                          <li><Link to={"#"} className="dropdown-item nav-link nav_item">Donec vitae ante ante</Link></li>
-                          <li><Link to={"#"} className="dropdown-item nav-link nav_item">Etiam ac rutrum</Link></li>
-                          <li><Link to={"#"} className="dropdown-item nav-link nav_item">Quisque condimentum</Link></li>
+                          <li><Link to={"#"} className="dropdown-item nav-link nav_item">Donec porttit</Link></li>
+                          <li><Link to={"#"} className="dropdown-item nav-link nav_item">Donec vitae</Link></li>
+                          <li><Link to={"#"} className="dropdown-item nav-link nav_item">Curabitur</Link></li>
+                          <li><Link to={"#"} className="dropdown-item nav-link nav_item">Vivamus in</Link></li>
+                          <li><Link to={"#"} className="dropdown-item nav-link nav_item">Donecante</Link></li>
+                          <li><Link to={"#"} className="dropdown-item nav-link nav_item">Etiam ac</Link></li>
+                          <li><Link to={"#"} className="dropdown-item nav-link nav_item">Quisque </Link></li>
                         </ul>
                       </li>
                       <li className="mega-menu-col col-lg-6">
                         <ul>
                           <li className="dropdown-header">Popular Item</li>
-                          <li><Link to={"#"} className="dropdown-item nav-link nav_item">Curabitur laoreet</Link></li>
-                          <li><Link to={"#"} className="dropdown-item nav-link nav_item">Vivamus in tortor</Link></li>
-                          <li><Link to={"#"} className="dropdown-item nav-link nav_item">Donec vitae facilisis</Link></li>
-                          <li><Link to={"#"} className="dropdown-item nav-link nav_item">Quisque condimentum</Link></li>
-                          <li><Link to={"#"} className="dropdown-item nav-link nav_item">Etiam ac rutrum</Link></li>
-                          <li><Link to={"#"} className="dropdown-item nav-link nav_item">Donec vitae ante ante</Link></li>
-                          <li><Link to={"#"} className="dropdown-item nav-link nav_item">Donec porttitor</Link></li>
-                          <li><Link to={"#"} className="dropdown-item nav-link nav_item">Curabitur tempus</Link></li>
+                          <li><Link to={"#"} className="dropdown-item nav-link nav_item">Curabitur</Link></li>
+                          <li><Link to={"#"} className="dropdown-item nav-link nav_item">Vivamus in</Link></li>
+                          <li><Link to={"#"} className="dropdown-item nav-link nav_item">Donec vitae</Link></li>
+                          <li><Link to={"#"} className="dropdown-item nav-link nav_item">Quisque</Link></li>
+                          <li><Link to={"#"} className="dropdown-item nav-link nav_item">Etiam ac</Link></li>
+                          <li><Link to={"#"} className="dropdown-item nav-link nav_item">Donec vitae</Link></li>
+                          <li><Link to={"#"} className="dropdown-item nav-link nav_item">Donec port</Link></li>
+                          <li><Link to={"#"} className="dropdown-item nav-link nav_item">Curabitur</Link></li>
                         </ul>
                       </li>
                     </ul>
                   </li>
                   <li className="mega-menu-col col-lg-5">
                     <div className="header-banner2">
-                      <img src="assets/images/menu_banner7.jpg" alt="menu_banner1" />
+                      <img src={computer} alt="menu_banner1" />
                       <div className="banne_info">
                         <h6>10% Off</h6>
                         <h4>Computers</h4>
@@ -65,7 +68,7 @@ const Categories = () => {
                       </div>
                     </div>
                     <div className="header-banner2">
-                      <img src="assets/images/menu_banner8.jpg" alt="menu_banner2" />
+                      <img src={computer} alt="menu_banner2" />
                       <div className="banne_info">
                         <h6>15% Off</h6>
                         <h4>Top Laptops</h4>
@@ -75,8 +78,8 @@ const Categories = () => {
                   </li>
                 </ul>
               </div>
-
             </li>
+
             <li className="dropdown dropdown-mega-menu">
               <Link to={"#"} className="dropdown-item nav-link dropdown-toggler" data-bs-toggle="dropdown"><i className="flaticon-responsive"><FaMobileScreen /></i> <span>Mobile &amp; Tablet</span></Link>
 
@@ -113,7 +116,7 @@ const Categories = () => {
                   </li>
                   <li className="mega-menu-col col-lg-5">
                     <div className="header-banner2">
-                      <a href="#"><img src="assets/images/menu_banner6.jpg" alt="menu_banner" /></a>
+                      <a href="#"><img src={mobile} alt="menu_banner" /></a>
                     </div>
                   </li>
                 </ul>
@@ -131,32 +134,32 @@ const Categories = () => {
                       <li className="mega-menu-col col-lg-6">
                         <ul>
                           <li className="dropdown-header">Featured Item</li>
-                          <li><a className="dropdown-item nav-link nav_item" href="#">Vestibulum sed</a></li>
-                          <li><a className="dropdown-item nav-link nav_item" href="#">Donec porttitor</a></li>
-                          <li><a className="dropdown-item nav-link nav_item" href="#">Donec vitae facilisis</a></li>
-                          <li><a className="dropdown-item nav-link nav_item" href="#">Curabitur tempus</a></li>
-                          <li><a className="dropdown-item nav-link nav_item" href="#">Vivamus in tortor</a></li>
-                          <li><a className="dropdown-item nav-link nav_item" href="#">Donec vitae ante ante</a></li>
-                          <li><a className="dropdown-item nav-link nav_item" href="#">Etiam ac rutrum</a></li>
+                          <li><Link to={"#"} className="dropdown-item nav-link nav_item">Vestibulum sed</Link></li>
+                          <li><Link to={"#"} className="dropdown-item nav-link nav_item">Donec porttit</Link></li>
+                          <li><Link to={"#"} className="dropdown-item nav-link nav_item">Donec vitae</Link></li>
+                          <li><Link to={"#"} className="dropdown-item nav-link nav_item">Curabitur temp</Link></li>
+                          <li><Link to={"#"} className="dropdown-item nav-link nav_item">Vivamus in</Link></li>
+                          <li><Link to={"#"} className="dropdown-item nav-link nav_item">Donec vitae</Link></li>
+                          <li><Link to={"#"} className="dropdown-item nav-link nav_item">Etiam ac rutrum</Link></li>
                         </ul>
                       </li>
                       <li className="mega-menu-col col-lg-6">
                         <ul>
                           <li className="dropdown-header">Popular Item</li>
-                          <li><a className="dropdown-item nav-link nav_item" href="#">Curabitur laoreet</a></li>
-                          <li><a className="dropdown-item nav-link nav_item" href="#">Vivamus in tortor</a></li>
-                          <li><a className="dropdown-item nav-link nav_item" href="#">Donec vitae facilisis</a></li>
-                          <li><a className="dropdown-item nav-link nav_item" href="#">Quisque condimentum</a></li>
-                          <li><a className="dropdown-item nav-link nav_item" href="#">Etiam ac rutrum</a></li>
-                          <li><a className="dropdown-item nav-link nav_item" href="#">Donec vitae ante ante</a></li>
-                          <li><a className="dropdown-item nav-link nav_item" href="#">Donec porttitor</a></li>
+                          <li><Link to={"#"} className="dropdown-item nav-link nav_item">Curabitur</Link></li>
+                          <li><Link to={"#"} className="dropdown-item nav-link nav_item">Vivamus</Link></li>
+                          <li><Link to={"#"} className="dropdown-item nav-link nav_item">Donec vitae</Link></li>
+                          <li><Link to={"#"} className="dropdown-item nav-link nav_item">Quisque</Link></li>
+                          <li><Link to={"#"} className="dropdown-item nav-link nav_item">Etiam ac</Link></li>
+                          <li><Link to={"#"} className="dropdown-item nav-link nav_item">Donec ante</Link></li>
+                          <li><Link to={"#"} className="dropdown-item nav-link nav_item">Donec porttitor</Link></li>
                         </ul>
                       </li>
                     </ul>
                   </li>
                   <li className="mega-menu-col col-lg-5">
                     <div className="header-banner2">
-                      <a href="#"><img src="assets/images/menu_banner9.jpg" alt="menu_banner" /></a>
+                      <Link to={"#"}><img src={mobile} alt="menu_banner" /></Link>
                     </div>
                   </li>
                 </ul>
@@ -172,31 +175,31 @@ const Categories = () => {
                   <li className="mega-menu-col col-lg-4">
                     <ul>
                       <li className="dropdown-header">Woman's</li>
-                      <li><a className="dropdown-item nav-link nav_item" href="shop-list-left-sidebar.html">Vestibulum sed</a></li>
-                      <li><a className="dropdown-item nav-link nav_item" href="shop-left-sidebar.html">Donec porttitor</a></li>
-                      <li><a className="dropdown-item nav-link nav_item" href="shop-right-sidebar.html">Donec vitae facilisis</a></li>
-                      <li><a className="dropdown-item nav-link nav_item" href="shop-list.html">Curabitur tempus</a></li>
-                      <li><a className="dropdown-item nav-link nav_item" href="shop-load-more.html">Vivamus in tortor</a></li>
+                      <li><Link to={"#"} className="dropdown-item nav-link nav_item">Vestibulum sed</Link></li>
+                      <li><Link to={"#"} className="dropdown-item nav-link nav_item">Donec porttitor</Link></li>
+                      <li><Link to={"#"} className="dropdown-item nav-link nav_item">Donec vitae</Link></li>
+                      <li><Link to={"#"} className="dropdown-item nav-link nav_item">Curabitur tempus</Link></li>
+                      <li><Link to={"#"} className="dropdown-item nav-link nav_item">Vivamus in tortor</Link></li>
                     </ul>
                   </li>
                   <li className="mega-menu-col col-lg-4">
                     <ul>
                       <li className="dropdown-header">Men's</li>
-                      <li><a className="dropdown-item nav-link nav_item" href="shop-cart.html">Donec vitae ante ante</a></li>
-                      <li><a className="dropdown-item nav-link nav_item" href="checkout.html">Etiam ac rutrum</a></li>
-                      <li><a className="dropdown-item nav-link nav_item" href="wishlist.html">Quisque condimentum</a></li>
-                      <li><a className="dropdown-item nav-link nav_item" href="compare.html">Curabitur laoreet</a></li>
-                      <li><a className="dropdown-item nav-link nav_item" href="order-completed.html">Vivamus in tortor</a></li>
+                      <li><Link to={"#"} className="dropdown-item nav-link nav_item">Donec vitae ante</Link></li>
+                      <li><Link to={"#"} className="dropdown-item nav-link nav_item">Etiam ac rutrum</Link></li>
+                      <li><Link to={"#"} className="dropdown-item nav-link nav_item">Quisque condimen</Link></li>
+                      <li><Link to={"#"} className="dropdown-item nav-link nav_item">Curabitur laoreet</Link></li>
+                      <li><Link to={"#"} className="dropdown-item nav-link nav_item">Vivamus in tortor</Link></li>
                     </ul>
                   </li>
                   <li className="mega-menu-col col-lg-4">
                     <ul>
                       <li className="dropdown-header">Kid's</li>
-                      <li><a className="dropdown-item nav-link nav_item" href="shop-product-detail.html">Donec vitae facilisis</a></li>
-                      <li><a className="dropdown-item nav-link nav_item" href="shop-product-detail-left-sidebar.html">Quisque condimentum</a></li>
-                      <li><a className="dropdown-item nav-link nav_item" href="shop-product-detail-right-sidebar.html">Etiam ac rutrum</a></li>
-                      <li><a className="dropdown-item nav-link nav_item" href="shop-product-detail-thumbnails-left.html">Donec vitae ante ante</a></li>
-                      <li><a className="dropdown-item nav-link nav_item" href="shop-product-detail-thumbnails-left.html">Donec porttitor</a></li>
+                      <li><Link to={"#"} className="dropdown-item nav-link nav_item">Donec vitae</Link></li>
+                      <li><Link to={"#"} className="dropdown-item nav-link nav_item">Quisque</Link></li>
+                      <li><Link to={"#"} className="dropdown-item nav-link nav_item">Etiam ac rutrum</Link></li>
+                      <li><Link to={"#"} className="dropdown-item nav-link nav_item">Donec vitae ante</Link></li>
+                      <li><Link to={"#"} className="dropdown-item nav-link nav_item">Donec porttitor</Link></li>
                     </ul>
                   </li>
                 </ul>

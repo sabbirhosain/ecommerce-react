@@ -1,104 +1,89 @@
 .top_header {
-  width: 90%;
-  margin: 0 auto;
+  background-color: gray;
+}
+
+.logo>.brand_logo {
+  max-width: 50%;
+}
+
+.logo>.brand_logo {
+  color: white;
+  font-size: 25px;
+  font-weight: 500;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .search_box {
+  width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  height: 45px;
-  border: 2px solid #BCE3C9;
-  border-radius: 4px;
-  padding: 0 20px;
 }
 
-.search {
-  width: 70%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.search .search_fild {
+.search_box>.search_fild {
   width: 100%;
-  height: 30px;
-  border: none;
+  height: 40px;
+  padding: 10px 10px;
   outline: none;
-  font-family: var(--primaryFonts);
-
-  &::placeholder {
-    font-size: 15px;
+  border: 2px solid orange;
+  &::placeholder{
     color: black;
-    font-weight: 400;
+    font-weight: 300;
   }
 }
 
-.search .search_icon {
-  font-size: 20px;
-  color: black !important;
+.search_box>.search_btn {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: var(--primaryFonts);
+  width: 100px;
+  height: 40px;
+  border: none;
+  outline: none;
+  background-color: orange;
 }
 
-.acton_box {
+.action_box {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.action_icon {
-  color: black !important;
-  font-size: 20px;
-  margin-right: 5px;
+.compare:hover .action_count,
+.compare:hover .action_icon,
+.compare:hover .action_name {
+  transition: all 0.3s;
+  color: orange;
 }
 
-.action_title {
-  color: black !important;
-  font-weight: 500;
-  font-family: var(--primaryFonts);
-  cursor: pointer;
+.wishlist:hover .action_count,
+.wishlist:hover .action_icon,
+.wishlist:hover .action_name {
+  transition: all 0.3s;
+  color: orange;
 }
 
-.account_icon {
-  color: black !important;
-  font-size: 20px;
-  margin-right: 5px;
+.cart:hover .action_count,
+.cart:hover .action_icon,
+.cart:hover .action_name {
+  transition: all 0.3s;
+  color: orange;
 }
 
 .action_count {
-  font-size: 15px;
-  font-weight: bold;
-}
-
-.account_title {
-  color: black !important;
-  font-weight: 500;
-  font-family: var(--primaryFonts);
-  cursor: pointer;
-  border: none;
-  outline: none;
-  background-color: transparent;
-}
-
-.account_dropdown {
-  border: 1px solid #BCE3C9;
-  border-radius: 0px;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-}
-
-.account_link {
   color: black;
-  display: flex;
-  align-items: center;
-  font-size: 14px;
-  cursor: pointer;
-  white-space: nowrap;
-  overflow: hidden;
-  font-family: var(--primaryFonts);
-  transition: all 0.2s;
+  font-size: 12px;
+}
 
-  &:hover {
-    color: white;
-    background-color: #01f753 !important;
-  }
+.action_icon {
+  color: black;
+  font-size: 20px;
+}
+
+.action_name {
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
 }

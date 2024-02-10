@@ -1,3 +1,10 @@
+.product_slider_btn {
+  color: orangered;
+  font-size: 25px;
+  font-family: var(--primaryFonts);
+  text-transform: uppercase;
+}
+
 .slick-slide {
   padding: 0px 10px !important;
 }
@@ -17,6 +24,7 @@
   opacity: 1;
   color: red;
 }
+
 
 @media screen and (max-width: 800px) {
 

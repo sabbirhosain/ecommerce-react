@@ -1,0 +1,15 @@
+.section_title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0px;
+}
+
+.title_name {
+  color: #0d0d0e;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 900;
+  font-family: var(--primaryFonts);
+  text-transform: capitalize;
+}

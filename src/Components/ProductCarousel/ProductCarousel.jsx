@@ -1,10 +1,29 @@
 import Slider from "react-slick"
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 import VerticalProductCard from "../ProductCard/Vertical/VerticalProductCard";
+import { FaRegArrowAltCircleLeft, FaRegArrowAltCircleRight } from "react-icons/fa";
 import "./ProductCarousel.css"
+import { useRef } from "react";
+
+// coustome next arrow
+const SampleNextArrow = (props) => {
+  const { onClick } = props;
+  return (
+    <div onClick={onClick}></div>
+  );
+}
+
+// coustome prev arrow
+const SamplePrevArrow = (props) => {
+  const { onClick } = props;
+  return (
+    <div onClick={onClick}></div>
+  );
+}
+
 
 const ProductCarousel = () => {
+  const slider = useRef(null);
+
   const settings = {
     dots: true,
     infinite: false,
@@ -12,6 +31,8 @@ const ProductCarousel = () => {
     slidesToShow: 4, //column
     slidesToScroll: 1,
     initialSlide: 0,
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />,
     responsive: [
       {
         breakpoint: 1400,
@@ -65,8 +86,13 @@ const ProductCarousel = () => {
   };
   return (
     <>
-      <h2> Responsive </h2>
-      <Slider {...settings}>
+      <div className="d-flex align-items-center justify-content-end mb-3">
+        <button onClick={() => slider?.current?.slickPrev()}
+          className="product_slider_btn me-1" title="prev"><FaRegArrowAltCircleLeft /></button>
+        <button onClick={() => slider?.current?.slickNext()}
+          className="product_slider_btn ms-1" title="next"><FaRegArrowAltCircleRight /></button>
+      </div>
+      <Slider ref={slider} {...settings}>
         <div>
           <VerticalProductCard />
         </div>

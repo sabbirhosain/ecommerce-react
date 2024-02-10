@@ -1,27 +1,19 @@
-import { Helmet } from 'react-helmet'
+import { Outlet } from 'react-router-dom'
 import Navbar from '../Components/Header/Navbar/Navbar'
-import Footer from '../Components/Footer/Footer'
 
-const Layout = ({ children, title }) => {
+const Layout = () => {
   return (
     <>
-      <Helmet>
-        <title>{title}</title>
-      </Helmet>
-
-
-      <header style={{ marginBottom: "80px" }}>
+      <header>
         <Navbar />
       </header>
 
-
       <main>
-        {children}
+        <Outlet />
       </main>
 
-
       <footer>
-        <Footer />
+        {/* <Footer /> */}
       </footer>
     </>
   )

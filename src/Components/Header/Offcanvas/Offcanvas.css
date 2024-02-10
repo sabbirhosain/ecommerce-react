@@ -1,0 +1,41 @@
+.offcanvas_box {
+  max-width: 300px;
+}
+
+.offcanvas-title {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.offcanvas_item {
+  /* color: black; */
+  font-weight: 500;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  align-items: center;
+  transition: all 0.3s;
+
+  &:hover {
+    color: white;
+    background-color: orange;
+  }
+}
+
+.list-group>.offcanvas_btn {
+  /* color: black; */
+  font-weight: 500;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &:hover {
+    color: white;
+    background-color: orange;
+  }
+
+  &.show {
+    color: white;
+    background-color: orange;
+  }
+}
